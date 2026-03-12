@@ -84,7 +84,7 @@ export default function HomePage() {
         )}
         <footer className="flex flex-col items-center py-4 mt-8 text-sm text-muted-foreground gap-2">
 
-                    This is a fork from Pedro Victor Veras. Eu desde que comecei a programar em frontend em flutter busquei fazer um aplicatvo para gerenciar minhas tarefas e projetos
+     This is a fork from Pedro Victor Veras. Eu desde que comecei a programar em frontend em flutter busquei fazer um aplicatvo para gerenciar minhas tarefas e projetos
 
           <p>
             Eu criei o Gohan treinamentos em FLutter em 2023 com lista de tarefas, notes app, Kanban Board.
