@@ -39,6 +39,27 @@ export default function HomePage() {
       />
       {/* Button to toggle sidebar visibility */}
       <main className="flex flex-col bg-red items-center flex-grow py-4 px-8 sm:px-4">
+
+
+      <footer className="flex flex-col items-center py-4 mt-8 text-sm text-muted-foreground gap-2">
+
+     This is a fork from Pedro Victor Veras. Eu desde que comecei a programar em frontend em flutter busquei fazer um aplicatvo para gerenciar minhas tarefas e projetos
+
+          <p>
+            Eu criei o Gohan treinamentos em FLutter em 2023 com lista de tarefas, notes app, Kanban Board.
+
+            
+          </p>
+
+          <p>
+            Em 2024, decicdi mover meu aplicativo para React e Vite, consegui um alarm clock, lista de tarefas com boas praticas com signal e tambem fiz um Calistenia App com VibeCoding e principalmente um Habit Tracker que eu uso todos os dias com Ionic
+          </p>
+
+          <a href="https://www.linkedin.com/in/fcsscoder/" target="_blank">
+            <FaLinkedin size={35} color="#6666FF" />
+          </a>
+        </footer>
+
         <div className="flex flex-row justify-between h-[5%] w-full mb-16 z-10 ">
           <Button onClick={() => setIsSidebarOpen(true)} className="block">
             <FaHistory className="h-5 w-5" /> {/* Use the history icon */}
@@ -82,24 +103,7 @@ export default function HomePage() {
           // Display upload form if no session is selected
           <PdfUploadForm />
         )}
-        <footer className="flex flex-col items-center py-4 mt-8 text-sm text-muted-foreground gap-2">
-
-     This is a fork from Pedro Victor Veras. Eu desde que comecei a programar em frontend em flutter busquei fazer um aplicatvo para gerenciar minhas tarefas e projetos
-
-          <p>
-            Eu criei o Gohan treinamentos em FLutter em 2023 com lista de tarefas, notes app, Kanban Board.
-
-            
-          </p>
-
-          <p>
-            Em 2024, decicdi mover meu aplicativo para React e Vite, consegui um alarm clock, lista de tarefas com boas praticas com signal e tambem fiz um Calistenia App com VibeCoding e principalmente um Habit Tracker que eu uso todos os dias com Ionic
-          </p>
-
-          <a href="https://www.linkedin.com/in/fcsscoder/" target="_blank">
-            <FaLinkedin size={35} color="#6666FF" />
-          </a>
-        </footer>
+  
       </main>{" "}
       {/* This is the single root element returned */}
     </div>
